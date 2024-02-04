@@ -1,0 +1,300 @@
+.containerr  {
+  max-width:1000px;
+  width:100%;
+z-index:9;
+  margin:0px auto;
+   display:flex; 
+  justify-content:center;
+  align-items:center;
+} 
+.subcontainer1 {
+  height:747px;  
+  width:70%;
+  /* border:2px solid red; */
+  background-color:#E9E6E6;
+  position:relative;
+  border-right:30px solid white;
+  }
+
+.equationdiv {
+  position:absolute;
+  box-sizing:border-box;
+  top:110px;
+  
+  color:black;
+  /* margin:40px; */
+  width:100%;
+}
+.chemicalequation {
+  margin-left:20px;
+  
+  font-size:25px;
+  line-height:20px;
+}
+.equation {
+  /* padding-top:80px; */
+  
+  line-height:57px;
+  margin-left:25px;
+  font-size:25px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+.pictureequation {
+  /* margin-top: 27px; */
+  height: 519px;
+  width: 633px;
+  background-color: white;
+  margin:14px 22px;
+}
+
+.subcontainer2 {
+  position:relative;
+  height:747px;
+  width:30%;
+  /* border:2px solid red; */
+}
+.btntop {
+  width:210px;
+  position : absolute;
+  top:5px;
+  right:5px;
+  display:flex;
+  justify-content: space-between;
+  align-items: top;
+  
+  font-size:20px;
+  
+  
+}
+.resetbutton {
+  height:45px;
+  width:120px;
+  border-radius:10px;
+  font-size:30px;
+  font-weight:bold; 
+  text-decoration:none;
+  border:2px solid black;
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+  background-color:#f0f0f0;
+  color:black;
+  /* margin-right:20px; */
+}
+.infobutton {
+  height:45px;
+  font-size:25px;
+  width:50px;
+  border-radius:10px;
+  font-weight:bold;
+  margin: auto;
+  }
+  .Questionline {
+    position:absolute;
+    top:100px;
+    font-size:25px;
+    font-weight:bold;
+  }
+  .questionseries {
+    top:247px;
+    font-size:20px;
+    position:absolute;
+
+    font-style: italic;
+  }
+  .Questions {
+    top:276px;
+    font-size:22px;
+    position:absolute;
+    font-weight:bold;
+  }
+  .inputbtn  {
+    top:287px;
+    position:absolute;
+    font-size:20px;
+    left:10px;
+
+  }
+  .inputbtn input {
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 29px;
+    height: 20px;
+    width: 20px;
+     
+  }
+  
+    .submitans {
+      border-radius: 12px;
+    position: absolute;
+    top: 422px;
+    left: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    color:white;
+    border-color:#0e76e4;
+    background-color:#669AD1;
+    }
+    .submitansdisabled {
+      border-radius: 12px;
+    position: absolute;
+    top: 422px;
+    left: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    color:white;
+    background-color:#0e76e4;
+    border-color:#0e76e4;
+    }
+    
+    .correctans {
+     
+      border-radius: 12px;
+      /* border-color:rgb(14, 220, 14); */
+      color:white;
+      background-color:rgb(8, 153, 66);
+    position: absolute;
+    bottom:20px;
+    left:220px;
+    font-weight:bold;
+    height: 50px;
+    width: 110px;
+    font-size: 26px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left:20px;
+    }
+    .equation img {
+      width:80px;
+      height:17px;
+      margin:auto 30px;
+    }
+    .correctans img {
+      width:80px;
+      height:20px;
+      margin:0px;
+      padding:0px;
+    }
+     .resetbutton img {
+      width:25px;
+      height:25px;
+      padding-right:10px;
+      /* margin:0px auto; */
+     }
+     .contentalert {
+      padding:20px 40px 20px 40px;
+      box-sizing: border-box;
+      font-size:20px;
+      text-align:justify;
+      background-color:rgb(245, 212, 212);
+     }
+     .alertstart  {
+      position:fixed;
+      top:0px;
+      line-height: 1.25;
+      background-color:rgba(211, 205, 205, 0.03);
+      max-width:1000px;
+      width:100%;
+    z-index:99;
+      margin:0px auto;
+      box-sizing: border-box;
+      font-size:20px;
+      text-align:justify;
+      Height:100%;
+    }
+    .alertstart img {
+      height:30px;
+      width:30px;
+      margin-right:10px;
+    }
+    .buttonstart {
+      height:40px;
+      width:120px;
+      font-size:20px;
+      background-color:black;
+      color:white;
+      border-radius: 10px;
+      margin-top:12px;
+      margin-left:37px;
+    }
+    .infopage {
+      display:flex;
+      justify-content: flex-start;
+    }
+    .wrong
+     {
+      padding:20px 40px 20px 40px;
+      box-sizing: border-box;
+      font-size:20px;
+      text-align:justify;
+      background-color:rgb(245, 212, 212);
+      height:70px;
+      display:flex;
+      justify-content: space-between;
+      align-items:center;
+
+     }
+     .buttonwrong {
+      height:30px;
+      width:30px;
+      font-size:20px;
+      background-color:rgb(0, 0, 0);
+      color:white;
+      font-weight:bold;
+      border-radius: 50%;
+      /* margin-top:12px;
+      margin-left:37px; */
+     }
+     .subdiv {
+      vertical-align: sub;
+      font-size: 20px;
+     }
+     .alertcongrats {
+      position:fixed;
+      top:0px;
+      line-height: 1.25;
+      background-color:rgba(211, 205, 205, 0.03);
+      max-width:1000px;
+      width:100%;
+    z-index:99;
+      margin:0px auto;
+      box-sizing: border-box;
+      font-size:20px;
+      text-align:justify;
+      Height:100%;
+
+     }
+     .congratssub {
+      position:absolute;
+      top:210px;
+      border-radius:20px;
+      left:200px;
+      color:white;
+      background-color: rgb(56,48,50,0.9);
+      height:200px;
+      width:500px;
+      border:3px solid brown;
+      padding:30px;
+      }
+
+     .congratssub span {
+      font-size:40px;
+      font-style:italic;
+      font-weight:bold;
+      margin:10px;
+     }
+
+     .congratssub p {
+      font-size:25px;
+      color:white;
+      margin:10px;
+      margin-bottom:30px;
+    }
+     
+     .congratssub link {
+      margin:10px;
+     }

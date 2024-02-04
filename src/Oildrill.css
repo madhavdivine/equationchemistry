@@ -1,0 +1,134 @@
+/* *{
+    margin:0;
+    padding: 0;
+} */
+.container {
+    top:0px;
+    width:100%;
+    left:220px;
+    right:150px;
+    position:fixed;
+}
+.videodiv {
+    width:1059px;
+    margin-top:-15px;
+}
+video{
+    height:450px;
+    width:1059px;
+    /* margin-left: 200px;
+    margin-top:-41px; */
+}
+.oil-para{
+    position:absolute;
+    width:1059px;
+    /* top:50px;
+    left:242px; */
+    line-height:30px;
+    text-align: justify;
+      margin-top:10px;
+   font-size: 22px; 
+    font-style: normal;
+    font-weight: 500;}
+.guessAnswer{
+    top: 580px;
+    /* background-color: black; */
+    position: absolute;
+    font-size: 25px;
+    /* font-style: italic; */
+}
+.guessAnswer input{
+height:20px;
+width:20px;
+border:2px solid black;
+
+}
+.guessAnswer div {
+    display:inline-block;
+    border-right:203px solid white;
+    margin-top:20px;
+    margin-left:20px;
+}
+.submitBtn{
+
+    margin-left: 451px;
+    margin-top: 234px;
+    height: 50px;
+    width: 220px;
+    background-color: rgb(26, 4, 149);
+    color: white;
+    border: 1px solid rgb(26, 4, 149);
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-family:arial;    
+
+
+} 
+.submitBtndis {
+    
+    margin-left: 451px;
+    margin-top: 234px;
+    height: 50px;
+    width: 220px;
+    background-color: rgb(130, 116, 206);
+    color: white;
+    border: 1px solid rgb(26, 4, 149);
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-family:arial;    
+
+
+}
+.continueBtn{
+    font-family: arial;
+    text-align: center;
+    /* margin-top: 10px; */
+    display: inline-block;
+    margin-left: 188px;
+    height: 24px;
+    width: 156px;
+    background-color: rgb(5, 123, 23);
+    color: white;
+    border: 1px solid rgb(5, 123, 23);
+    border-radius: 15px;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 11px 20px;
+    text-decoration:none;
+}
+.linkbutton {
+    text-decoration:none;
+    color:white;
+}
+.alertmenu {
+    position:fixed;
+    top:0px;
+    left:218px;
+    height:60px;
+    padding:25px;
+    padding-top:15px;
+    font-size:25px;
+    border:black 1px solid;
+    border-radius:2px;
+    width:71%;
+    background-color: rgba(247, 243, 243, 0.916);
+    font-weight:bold;
+    box-sizing:border-box;  
+}
+.wrong
+{
+    color:rgb(255, 0, 0);
+
+}
+
+.correct {
+    color:green;
+}
+.tryagain {
+    background-color:red;
+    border-color:red;   
+}

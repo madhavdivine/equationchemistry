@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/equationchemistry/static/css/main.d7d4be05.css",
+    "main.js": "/equationchemistry/static/js/main.d316b666.js",
+    "static/js/787.8b0f3714.chunk.js": "/equationchemistry/static/js/787.8b0f3714.chunk.js",
+    "static/media/main-screen.png": "/equationchemistry/static/media/main-screen.dc3ab57fe37a4a2d4316.png",
+    "static/media/sixth-reactants.png": "/equationchemistry/static/media/sixth-reactants.4ba6764032a59f217b79.png",
+    "static/media/fifth-reactants.png": "/equationchemistry/static/media/fifth-reactants.33f4cfe48281bb3ce32b.png",
+    "static/media/third-reactants.png": "/equationchemistry/static/media/third-reactants.cce402a524735a9d3d6e.png",
+    "static/media/second-reactants.png": "/equationchemistry/static/media/second-reactants.34e8ac34fdfa31c9e6af.png",
+    "static/media/fourth-reactants.png": "/equationchemistry/static/media/fourth-reactants.820a93ca212ce208549b.png",
+    "static/media/first-reactants.png": "/equationchemistry/static/media/first-reactants.e6fb56b6a82b904e2261.png",
+    "static/media/arrow.png": "/equationchemistry/static/media/arrow.5f9401e51fe9a71df2f5.png",
+    "static/media/whitearrow.png": "/equationchemistry/static/media/whitearrow.bc6de5f114e19ebd56b8.png",
+    "index.html": "/equationchemistry/index.html",
+    "static/media/reset.svg": "/equationchemistry/static/media/reset.614b465c3301a8e5238c9253b76c67de.svg",
+    "static/media/info.svg": "/equationchemistry/static/media/info.ac453d774ad87db6c341d5311d482c85.svg",
+    "main.d7d4be05.css.map": "/equationchemistry/static/css/main.d7d4be05.css.map",
+    "main.d316b666.js.map": "/equationchemistry/static/js/main.d316b666.js.map",
+    "787.8b0f3714.chunk.js.map": "/equationchemistry/static/js/787.8b0f3714.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7d4be05.css",
+    "static/js/main.d316b666.js"
+  ]
+}
